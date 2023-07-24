@@ -15,7 +15,23 @@
     padding: 0 8px;
 }
 
+.upper {
+    display: flex;
+    justify-content: center;
+}
+
+.uppertext {
+    display: flex;
+    flex-direction: column;
+}
+
+.topbutton{
+
+}
+
 img{
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 300px;
+    display: inline-block;
+    padding: 0 16px;
 }
