@@ -1,4 +1,16 @@
 .header {
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 0px;
+}
+
+.subheader {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+.hli {
+    padding: 0 8px;
 }
