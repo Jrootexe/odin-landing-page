@@ -59,3 +59,24 @@ img{
     display: flex;
     flex-direction: column;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end
+}
+
+.lower {
+    display: flex;
+    justify-content: center;
+}
+
+.bottombutton {
+    flex: 0 1 auto;
+    height: 25px;
+    width: 75px;
+}
