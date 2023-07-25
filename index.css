@@ -40,3 +40,22 @@ img{
     display: inline-block;
     padding: 0 16px;
 }
+
+.middletitle{
+    text-align: center;
+}
+
+.middlecontent{
+    display: flex;
+    justify-content: center;
+}
+
+.txtimg img {
+    height: auto;
+    width: 200px;
+}
+
+.txtimg{
+    display: flex;
+    flex-direction: column;
+}
