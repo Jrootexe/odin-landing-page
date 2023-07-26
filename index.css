@@ -1,5 +1,8 @@
 body{
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
 
 .header {
@@ -7,6 +10,10 @@ body{
     justify-content: space-around;
     padding: 16px;
     margin: 0px;
+}
+
+.logo{
+    font-size: 24px;
 }
 
 .subheader {
@@ -22,6 +29,7 @@ body{
 .upper {
     display: flex;
     justify-content: center;
+    padding: 75px;
 }
 
 .uppertext {
@@ -39,6 +47,20 @@ img{
     width: 300px;
     display: inline-block;
     padding: 0 16px;
+}
+
+.header, .upper, .footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+.header .logo, .upper .upperhero{
+    color: #F9FAF8;
+}
+
+.middle{
+    padding: 75px;
+    padding-top: 40px;
 }
 
 .middletitle{
@@ -70,9 +92,15 @@ img{
     justify-content: flex-end
 }
 
+.quotesec {
+    background-color: #e5e7eb;
+    padding: 75px;
+}
+
 .lower {
     display: flex;
     justify-content: center;
+    padding: 75px;
 }
 
 .bottombutton {
@@ -84,4 +112,5 @@ img{
 .footer{
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
