@@ -107,13 +107,19 @@ img{
     padding: 0 18px;
 }
 
-.quotesec {
+.quoteback{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quotesec {
     padding: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 750px;
 }
 
 .quote {
@@ -127,7 +133,7 @@ img{
 
 .author {
     display: flex;
-    align-self: center;
+    align-self: flex-end;
     font-weight: bold;
 }
 
