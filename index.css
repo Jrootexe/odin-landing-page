@@ -81,7 +81,7 @@ img{
     text-align: center;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 800px;
+    font-weight: 800;
     padding-bottom: 40px;
 }
 
@@ -137,16 +137,43 @@ img{
     font-weight: bold;
 }
 
-.lower {
+.lowerback{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 75px;
+    background-color: #3882F6;
+    width: 600px;
+    height: 0px;
+    border: 0 solid;
+    border-radius: 8px;
+}
+
+.lowerhero{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lowertext {
+    color: white;
+    line-height: 4px;
 }
 
 .bottombutton {
     flex: 0 1 auto;
     height: 25px;
     width: 75px;
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 6px;
 }
 
 .footer{
